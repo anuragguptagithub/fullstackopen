@@ -1,71 +1,57 @@
 # fullstackopen
 https://fullstackopen.com/en/about
 
-Part 0
+Part 0 <br />
+Fundamentals of Web apps<br />
+Introduction to React<br />
 
-Fundamentals of Web apps
+Part 1 <br />
+Introduction to React<br />
+Communicating with server<br />
 
-Introduction to React
-Part 1
+Part 2 <br />
+Communicating with server<br />
+Programming a server with NodeJS and Express<br />
 
-Introduction to React
+Part 3 <br />
+Programming a server with NodeJS and Express<br />
+Testing Express servers, user administration<br />
 
-Communicating with server
-Part 2
+Part 4 <br />
+Testing Express servers, user administration<br />
+Testing React apps<br />
 
-Communicating with server
+Part 5 <br />
+Testing React apps<br />
+State management with Redux<br />
 
-Programming a server with NodeJS and Express
-Part 3
+Part 6 <br />
+State management with Redux<br />
+React router, custom hooks, styling app with CSS and webpack<br />
 
-Programming a server with NodeJS and Express
+Part 7 <br />
+React router, custom hooks, styling app with CSS and webpack<br />
+GraphQL<br />
 
-Testing Express servers, user administration
-Part 4
+Part 8 <br />
+GraphQL<br />
+TypeScript<br />
 
-Testing Express servers, user administration
+Part 9 <br />
+TypeScript<br />
+React Native<br />
 
-Testing React apps
-Part 5
+Part 10 <br />
+React Native<br />
+CI/CD<br />
 
-Testing React apps
+Part 11 <br />
+CI/CD<br />
+Containers<br />
 
-State management with Redux
-Part 6
+Part 12 <br />
+Containers<br />
+Using relational databases<br />
 
-State management with Redux
-
-React router, custom hooks, styling app with CSS and webpack
-Part 7
-
-React router, custom hooks, styling app with CSS and webpack
-
-GraphQL
-Part 8
-
-GraphQL
-
-TypeScript
-Part 9
-
-TypeScript
-
-React Native
-Part 10
-
-React Native
-
-CI/CD
-Part 11
-
-CI/CD
-
-Containers
-Part 12
-
-Containers
-
-Using relational databases
-Part 13
-
+Part 13 <br />
 Using relational databases
