@@ -4,11 +4,11 @@ const Notification = ({ message }) => {
     if (message === null) {
       return null
     }
-    const color =  message.includes('Added') || message.includes('Updated') ? 'green':'red' ;
+    const color =  message.includes('Added') || message.includes('updated') ? 'green':'red' ;
     const notificationStyle = {
         color: color,
         background: 'lightgrey',
-        fontSize: 20,
+        fontSize: 13,
         borderStyle: 'solid',
         borderRadius: 5,
         padding: 10,
