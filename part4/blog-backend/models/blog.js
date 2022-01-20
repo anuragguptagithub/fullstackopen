@@ -1,5 +1,4 @@
 const mongoose = require('mongoose')
-const config = require('../util/config')
 
 const blogSchema = new mongoose.Schema({
     title: String,
@@ -7,9 +6,6 @@ const blogSchema = new mongoose.Schema({
     url: String,
     likes: Number
   })
-
-  const mongoUrl = config.MONGODB_URI
-  mongoose.connect(mongoUrl)
 
   blogSchema.set('toJSON', {
     transform: (document, returnedObject) => {
