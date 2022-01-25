@@ -7,6 +7,8 @@ const helper = require('../utils/test_helper')
 const bcrypt = require('bcrypt')
 const User = require('../models/user')
 var token = ''
+jest.setTimeout(50000)
+
 describe('when there is initially one user in db', () => {
   beforeEach(async () => {
     await User.deleteMany({})
@@ -67,10 +69,6 @@ describe('blogs tests',() => {
 beforeEach( async () => {
     await Blog.deleteMany({});
     
-    for (let note of helper.initialBlogs) {
-        let noteObject = new Blog(note)
-        await noteObject.save()
-      }
     const user = {
         "username":"root",
         "password":"sekret"
@@ -78,7 +76,12 @@ beforeEach( async () => {
     const tokenResult = await api
                         .post('/api/login')
                         .send(user)
-    token = 'Bearer ' + tokenResult.body.token                        
+    token = 'Bearer ' + tokenResult.body.token    
+    
+    for (let blog of helper.initialBlogs) {
+      let blogObject = new Blog({...blog,user: tokenResult.body.id})
+      await blogObject.save()
+    }                    
                             
 })  
     
